@@ -8,8 +8,10 @@ animalName="lion"
 
 while True:
     answer = input("Guess the animal I am thinking of : ")
-    if answer == animalName:
+    if answer.lower() == animalName.lower():
         print("Thats it!!")
-        break 
+        break
+    elif answer == "quit":
+        break
     else:
         print("Thats not it try again")
