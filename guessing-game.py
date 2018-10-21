@@ -1,5 +1,4 @@
 def guessGameTitle():
-    ##print title
     print("Python Guessing Game")
 
 guessGameTitle()
